@@ -2,7 +2,6 @@ import { useEffect, useState } from 'react'
 import Container from '../components/ui/Container'
 import Button from '../components/ui/Button'
 import Input from '../components/ui/Input'
-import Badge from '../components/ui/Badge'
 import { useAuth } from '../auth/AuthContext'
 import { useLanguage } from '../i18n/LanguageContext'
 
@@ -27,7 +26,7 @@ interface Stats {
 
 export default function Khata() {
   const { token } = useAuth()
-  const { t, isHindi } = useLanguage()
+  const { isHindi } = useLanguage()
   const [customers, setCustomers] = useState<Customer[]>([])
   const [stats, setStats] = useState<Stats | null>(null)
   const [search, setSearch] = useState('')

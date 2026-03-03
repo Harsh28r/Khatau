@@ -122,33 +122,6 @@ function App() {
   )
 }
 
-function Home() {
-  return (
-    <section className="grid gap-8 md:grid-cols-2">
-      <div className="space-y-4">
-        <h1 className="text-4xl font-extrabold leading-tight">
-          Mumbai-style Bhelpuri, Sevpuri, Sandwiches & more
-        </h1>
-        <p className="text-gray-600">
-          Fresh, crunchy, and bursting with tangy flavors. Order your
-          street-food favorites, made hygienically and delivered fast.
-        </p>
-        <div className="flex gap-3">
-          <Link to="/menu"><Button>Explore Menu</Button></Link>
-          <a href="#highlights"><Button variant="secondary">Highlights</Button></a>
-        </div>
-      </div>
-      <div className="aspect-video overflow-hidden rounded-xl bg-gray-100">
-        <ImageWithFallback
-          src="https://images.unsplash.com/photo-1625944520185-52a540b9f2d5?q=80&w=1600&auto=format&fit=crop"
-          alt="Delicious street food"
-          className="h-full w-full object-cover"
-        />
-      </div>
-    </section>
-  )
-}
-
 import { useEffect, useMemo, useState } from 'react'
 import debounce from 'lodash.debounce'
 
