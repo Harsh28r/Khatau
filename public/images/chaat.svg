@@ -1,0 +1,15 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="chaatG" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fef3c7"/>
+      <stop offset="0.5" stop-color="#fde68a"/>
+      <stop offset="1" stop-color="#fcd34d"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#chaatG)"/>
+  <circle cx="400" cy="300" r="120" fill="#b45309" opacity="0.2"/>
+  <circle cx="250" cy="250" r="80" fill="#ea580c" opacity="0.15"/>
+  <circle cx="550" cy="350" r="90" fill="#d97706" opacity="0.18"/>
+  <ellipse cx="400" cy="380" rx="200" ry="40" fill="#a8a29e" opacity="0.3"/>
+  <rect x="300" y="320" width="200" height="25" rx="12" fill="#78716c" opacity="0.35"/>
+</svg>

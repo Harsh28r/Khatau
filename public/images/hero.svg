@@ -1,0 +1,22 @@
+<svg width="1920" height="1080" viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="heroBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1c1917"/>
+      <stop offset="40%" style="stop-color:#292524"/>
+      <stop offset="100%" style="stop-color:#44403c"/>
+    </linearGradient>
+    <linearGradient id="heroAccent" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" style="stop-color:#f59e0b;stop-opacity:0.25"/>
+      <stop offset="100%" style="stop-color:#f59e0b;stop-opacity:0"/>
+    </linearGradient>
+  </defs>
+  <rect width="1920" height="1080" fill="url(#heroBg)"/>
+  <ellipse cx="960" cy="540" rx="500" ry="400" fill="url(#heroAccent)"/>
+  <circle cx="400" cy="300" r="180" fill="#f59e0b" opacity="0.08"/>
+  <circle cx="1500" cy="700" r="220" fill="#ea580c" opacity="0.06"/>
+  <g fill="#78716c" opacity="0.4">
+    <circle cx="200" cy="200" r="60"/>
+    <circle cx="1720" cy="250" r="80"/>
+    <circle cx="960" cy="900" r="100"/>
+  </g>
+</svg>

@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: 'Playfair Display', Georgia, serif;
+}
+
+:root {
+  --brand: 220 72% 45%;
+}
+
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  font-family: 'Poppins', ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial;
+}
+
+.font-display {
+  font-family: var(--font-display);
+}
