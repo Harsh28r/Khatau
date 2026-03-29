@@ -23,6 +23,7 @@ import Badge from './components/ui/Badge'
 import ImageWithFallback from './components/ImageWithFallback'
 import CategoryCarousel from './components/CategoryCarousel'
 import { useToast } from './toast/ToastContext'
+import { Analytics } from '@vercel/analytics/react'
 
 function LanguageToggle() {
   const { language, setLanguage } = useLanguage()
@@ -56,6 +57,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Landing />} />
         </Routes>
+        <Analytics />
       </div>
     )
   }
@@ -118,6 +120,7 @@ function App() {
       <footer className="border-t py-6 text-center text-sm text-gray-500">
         © {new Date().getFullYear()} Khatau Bhelpuriwala
       </footer>
+      <Analytics />
       </div>
   )
 }
